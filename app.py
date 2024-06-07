@@ -3,7 +3,7 @@ import pandas as pd
 from pandasai.llm import OpenAI
 from pandasai import SmartDataframe
 
-API_KEY = st.secrets("API_KEY")
+API_KEY = st.secrets["API_KEY"]
 
 llm = OpenAI(api_token= API_KEY)
 
